@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css_custom_reset.css" type="text/css"/>
+    <title>Spencer Chan Recipe Page</title>
+  </head>
+  <body>
+    <h2>Chile Recipe</h2>
+    <nav>
+      <ul>
+        <li><a href="#description">Description</a></li>
+        <li><a href="#ingredients">Ingredients</a></li>
+        <li><a href="#directions">Directions</a></li>
+      </ul>
+    </nav>
+    <br>
+
+  <aside class="">
+
+    <h2 id='ingredients'>Ingredients</h2>
+    <ul class='ingredientlist'>
+      <li>2 pounds ground beef</li>
+      <li>2 cloves of garlic, chopped</li>
+      <li>8 ounce can tomato sauce</li>
+      <li>2 tablespoons of chili powder</li>
+      <li>1 teaspoon ground cumin</li>
+      <li>1 teaspoon ground oregano</li>
+      <li>1 teaspoon salt</li>
+      <li>15 ounce can kidney beans</li>
+      <li>chopped onions</li>
+      <li>chopped green pepper</li>
+    </ul>
+  </aside>
+
+  <section id='main'>
+
+    <img src='http://lookslikehomemade.com/wp-content/uploads/2016/09/chili.jpg' alt='chilipic' />
+
+    <h2 id='description'>Description</h2>
+    <p>Chile is a great mix of beans, tomato sauce, meat, onion, peppers and much more.
+      It goes great with rice, or on top of tortilla chips as nachos with cheese and guacamole.
+    </p>
+
+    <h4>
+      <a href='https://en.wikipedia.org/wiki/Chili'>Chili</a>
+    </h4>
+
+    <h2 id='directions'>Cooking Directions</h2>
+    <ol class='directionslist'>
+      <li>Chop up the onions and peppers</li>
+      <li>Brown the ground beef by itself</li>
+      <li>Pour all the ingredients into a large pot and let slow boil</li>
+      <li>Let is cook for several hours until everything is cooked through</li>
+      <li>Make sure to let cool before serving</li>
+    </ol>
+
+
+</section>
+
+    <section id='reviews'>
+      <h2>Reviews</h2>
+      <form method = 'post' id='review_form' action='/reviews'>
+        <label for='review'>Review</label><br>
+        <textarea name='review' cols='30' rows='10'></textarea>
+        <!-- <input type = 'text' name = 'review' id='review1' ><br> -->
+        <br><br>
+
+        <label for="rating">Rating</label> <br>
+        <input type='radio' name='rating' value='1' checked> 1
+        <input type='radio' name='rating' value='2' > 2
+        <input type='radio' name='rating' value='3' > 3
+        <input type='radio' name='rating' value='4' > 4
+        <input type='radio' name='rating' value='5' > 5
+
+    <br><br>
+
+      <label for="expertise">Expertise</label><br>
+        <select name='skill'>
+          <option value='default' disabled selected>Select cooking expertise</options>
+          <option value='default' >Sometimes Cook</options>
+          <option value='default' >Cook Everyday</options>
+          <option value='default' >Cooking is a hobby</options>
+          <option value='default' >Professional Chef</options>
+          </select>
+          <br>
+
+      <input type='submit' value='Submit Review'>
+    </form>
+
+      </section>
+
+  </body>
+
+  <footer><p>This recipe was inspired by the food network at <a href = 'http://www.foodnetwork.com/recipes/ree-drummond/simple-perfect-chili-recipe-2107099'>Chili Network</a>
+  </p></footer>
+</html>
