@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import LeftNav from './leftnav';
 
 class Root extends React.Component {
   render () {
     return(
       <div>
-        This is ReacT.
+        <LeftNav/>
       </div>
     );
   }
