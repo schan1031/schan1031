@@ -11,6 +11,7 @@ export default class LeftNav extends React.Component {
           <li>Flocking Simulation</li>
           <li>DraftRoyale</li>
           <li>Scriber</li>
+          <li>About Me</li>
         </ul>
       </div>
     );
