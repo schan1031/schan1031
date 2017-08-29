@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import LeftNav from './leftnav';
 import { HashRouter, Route } from 'react-router-dom';
 import Flock from './flock';
+import Draft from './draft';
+
 
 class Root extends React.Component {
   render () {
@@ -12,6 +14,7 @@ class Root extends React.Component {
           <div className='main'>
             <LeftNav/>
             <Route path='/flock' component={Flock} />
+            <Route path='/draft' component={Draft} />
           </div>
         </HashRouter>
       </div>

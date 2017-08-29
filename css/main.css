@@ -40,24 +40,19 @@ body {
 
 .nav-item:hover {
   cursor: pointer;
-  /*transform: scale(1.1);*/
   background-color: white;
   color: #071730;
 }
 
-/*.navList > li:first-of-type {
-  border-top: solid white 2px;
+.nav {
+  border-right: solid grey 3px;
 }
-
-.navList > li:last-of-type {
-  border-bottom: solid white 2px;
-}*/
 
 .portrait {
   margin-top: 20px;
   border-radius: 50%;
 }
 
-.list-text {
+a {
   text-decoration: none;
 }
