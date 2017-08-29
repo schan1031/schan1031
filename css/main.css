@@ -12,3 +12,26 @@ body {
   background-color: #071730;
   color: white;
 }
+
+.navList {
+  list-style: none;
+  padding-left: 0;
+  /*padding-top: 15px;*/
+}
+
+.navList > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 225px;
+  padding-left: 25px;
+  border-top: solid white 1px;
+  /*text-align: center;*/
+}
+
+.navList > li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

@@ -7,7 +7,11 @@ export default class LeftNav extends React.Component {
       <div className='nav'>
         <span>pic</span>
         <h2>Spencer Chan</h2>
-
+        <ul className='navList'>
+          <li>Flocking Simulation</li>
+          <li>DraftRoyale</li>
+          <li>Scriber</li>
+        </ul>
       </div>
     );
   }
