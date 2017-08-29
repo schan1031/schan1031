@@ -48,3 +48,8 @@ body {
 .navList > li:last-of-type {
   border-bottom: solid white 2px;
 }
+
+.portrait {
+  margin-top: 20px;
+  border-radius: 50%;
+}
