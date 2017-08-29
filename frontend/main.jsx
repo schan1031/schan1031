@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import LeftNav from './leftnav';
+import { HashRouter, Route } from 'react-router-dom';
+import Flock from './flock';
 
 class Root extends React.Component {
   render () {
     return(
       <div>
-        <LeftNav/>
+        <HashRouter>
+          <div className='main'>
+            <LeftNav/>
+            <Route path='/flock' component={Flock} />
+          </div>
+        </HashRouter>
       </div>
     );
   }

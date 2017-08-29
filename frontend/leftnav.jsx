@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default class LeftNav extends React.Component {
 
@@ -8,7 +9,11 @@ export default class LeftNav extends React.Component {
         <img className='portrait' src='./assets/square.png' height='150' width='150'/>
         <h2>Spencer Chan</h2>
         <ul className='navList'>
-          <li>Flocking Simulation</li>
+            <li>
+              <Link to='/flock'>
+                Flocking Simulation
+              </Link>
+            </li>
           <li>DraftRoyale</li>
           <li>Scriber</li>
           <li>About Me</li>
@@ -17,3 +22,7 @@ export default class LeftNav extends React.Component {
     );
   }
 }
+
+// <Link to='/flock'>
+//   Flocking Simulation
+// </Link>
