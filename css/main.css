@@ -25,7 +25,7 @@ body {
   /*padding-top: 15px;*/
 }
 
-.navList > li {
+.nav-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,25 +35,29 @@ body {
   padding-left: 25px;
   border-top: solid white 1px;
   border-bottom: solid white 1px;
-  /*text-align: center;*/
+  color: white;
 }
 
-.navList > li:hover {
+.nav-item:hover {
   cursor: pointer;
   /*transform: scale(1.1);*/
   background-color: white;
   color: #071730;
 }
 
-.navList > li:first-of-type {
+/*.navList > li:first-of-type {
   border-top: solid white 2px;
 }
 
 .navList > li:last-of-type {
   border-bottom: solid white 2px;
-}
+}*/
 
 .portrait {
   margin-top: 20px;
   border-radius: 50%;
+}
+
+.list-text {
+  text-decoration: none;
 }

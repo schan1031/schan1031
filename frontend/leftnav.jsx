@@ -9,14 +9,26 @@ export default class LeftNav extends React.Component {
         <img className='portrait' src='./assets/square.png' height='150' width='150'/>
         <h2>Spencer Chan</h2>
         <ul className='navList'>
-            <li>
-              <Link to='/flock'>
-                Flocking Simulation
-              </Link>
+          <Link to='/flock'>
+            <li className='nav-item'>
+              Flocking Simulation
             </li>
-          <li>DraftRoyale</li>
-          <li>Scriber</li>
-          <li>About Me</li>
+          </Link>
+          <Link to='/draft'>
+            <li className='nav-item'>
+              DraftRoyale
+            </li>
+          </Link>
+          <Link to='/scriber'>
+            <li className='nav-item'>
+              Scriber
+            </li>
+          </Link>
+          <Link to='/about'>
+            <li className='nav-item'>
+              About Me
+            </li>
+          </Link>
         </ul>
       </div>
     );
