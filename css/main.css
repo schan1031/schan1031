@@ -14,10 +14,16 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 250px;
+  width: 0px;
   height: 100vh;
   background-color: #071730;
+  border-right: solid grey 10px;
   color: white;
+  transition: width 1s;
+}
+
+.nav:hover {
+  width: 250px;
 }
 
 .navList {
@@ -43,10 +49,6 @@ body {
   cursor: pointer;
   background-color: white;
   color: #071730;
-}
-
-.nav {
-  border-right: solid grey 3px;
 }
 
 .portrait {
