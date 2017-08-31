@@ -14,16 +14,11 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 0px;
+  width: 250px;
   height: 100vh;
   background-color: #071730;
-  border-right: solid grey 10px;
+  border-right: solid grey 5px;
   color: white;
-  transition: width 1s;
-}
-
-.nav:hover {
-  width: 250px;
 }
 
 .navList {
