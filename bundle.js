@@ -27251,9 +27251,14 @@ var Scriber = function (_React$Component) {
         'div',
         { className: 'main-panel animated fadeIn' },
         _react2.default.createElement(
-          'span',
+          'h2',
           null,
-          'image'
+          'Scriber'
+        ),
+        _react2.default.createElement(
+          'a',
+          { target: '_blank', href: 'http://www.scriber.us/' },
+          _react2.default.createElement('img', { src: './assets/scriber.gif', width: '240' })
         ),
         _react2.default.createElement(
           'p',
