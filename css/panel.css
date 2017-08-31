@@ -1,0 +1,10 @@
+.main-panel {
+  width: 100vw - 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-panel > p {
+  width: 75%;
+}
